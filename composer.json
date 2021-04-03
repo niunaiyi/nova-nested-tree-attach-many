@@ -1,5 +1,5 @@
 {
-    "name": "phoenix-lib/nova-nested-tree-attach-many",
+    "name": "norgeit/nova-nested-tree-attach-many",
     "description": "Nova vue-tree-select field for management nested category relations.",
     "keywords": [
         "laravel",
