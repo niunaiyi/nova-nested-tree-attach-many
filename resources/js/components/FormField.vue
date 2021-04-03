@@ -45,6 +45,7 @@ export default {
       return {
         id: node[this.field.idKey],
         label: node[this.field.labelKey],
+        customLabel: node[this.field.displayKey],
         isDisabled: node.hasOwnProperty(this.field.activeKey)
             && node[this.field.activeKey] === this.field.isActiveFalse,
         children: node.hasOwnProperty(this.field.childrenKey)

@@ -114,6 +114,14 @@ class NestedTreeAttachManyField extends Field
         return $this;
     }
 
+	public function withDisplayKey(string $displayKey = 'name'){
+		$this->withMeta([
+			'displayKey' => $displayKey,
+		]);
+
+		return $this;
+	}
+
     public function withChildrenKey(string $childrenKey): NestedTreeAttachManyField
     {
         $this->withMeta([
